@@ -1,0 +1,665 @@
+@media (max-width:991px){
+    .nav-part2{
+        right: -9%;
+        margin-right: 0;
+    }
+  .nav-part2 a{
+    gap:1rem;
+    display: none;
+  }
+  .page2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.page2 .elem {
+    min-height: 60vh;
+    width: 100%;
+    margin: 0.5rem 0.5rem;
+}
+  .video-container {
+    height: 60vh;
+    width: calc(100% - 2rem);
+    margin: 1rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.page1 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-top:23vh;
+}
+.page1 h1 {
+    font-size: 16vw;
+    font-family: 'futura';
+    text-transform: uppercase;
+    letter-spacing: -0.6rem;
+    line-height: 8rem;
+    padding-left: 1.5vw;
+}
+  .dets{
+    height: 60px;
+    width: 45%;
+  }
+  .dets:hover {
+    cursor: pointer;
+    height: 25%;
+    
+}
+.dets .upper{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    padding: 7px;
+    border-radius: 15px;
+    background-color: #F5DFCF;
+}
+.dets .upper i{
+    background-color: #F5DFCF;
+    
+}
+.dets .upper  .ri-circle-fill{
+    font-size: 8px;
+}
+.dets .upper a{
+    text-decoration: none;
+    background-color: #F5DFCF;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+}
+
+.dets .lower{
+    display: flex;
+    position: absolute;
+    bottom: 5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #F5DFCF;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+}
+.lower .dets:hover{
+    opacity: 1;
+}
+.dets .lower img{
+    width: 100px;
+    height: 95px;
+    background-color: #F5DFCF;
+}
+.dets .end{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    padding: 6px;
+    background-color: #F5DFCF;
+   
+}
+
+.dets .end p{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+     color: rgb(60, 59, 59);
+     line-height: 1.1;
+     letter-spacing: -0.03rem;
+     background-color:#F5DFCF ;
+}
+.text {
+    height:auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding: 1rem;
+    justify-content: flex-start;
+}
+.text .left-box h1 {
+    font-size: 2rem;
+    font-family: 'futura';
+    letter-spacing: -0.05rem;
+    line-height: 1;
+    text-align: center;
+    margin-bottom:2rem ;
+}
+.text .left-box {
+    flex: 0 0;
+    height: auto;
+}
+.text .right-box {
+   flex:0 0;
+   
+}
+.text .right-box{
+    text-align: center;
+}
+.text .right-box p{
+    font-size: 1rem;
+}
+.page3 {
+    min-height:auto;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 6rem;
+    margin-top: 2rem;
+}
+.page3 .child{
+    height: auto;
+}
+.page3 .child img {
+    height: auto;
+    width: 40vw;
+    z-index: 99;
+}
+.page5{
+    flex-direction: column-reverse ;
+}
+.paina .dabba {
+    height: 50vh;
+}
+.page6 .end{
+    height: fit-content;
+    padding: 2rem;
+    position: relative;
+    text-align: start;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+} 
+.page6 .end p{
+    font-family:"Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif ;
+    font-size: 12px;
+    color: #5f5e5e;
+    line-height: 1.6;
+    letter-spacing: -0.02rem;
+}
+.blackbox .right{
+    width: auto;
+}
+}
+@media (max-width:768px){
+    .nav-part2{
+        right: -10%;
+        margin-right: 0;
+    }
+  .nav-part2 a{
+    gap:1rem;
+    display: none;
+  }
+  .page2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.page2 .elem {
+    min-height: 60vh;
+    width: 100%;
+    margin: 0.5rem 0.5rem;
+}
+  .video-container {
+    height: auto;
+    width: calc(100% - 2rem);
+    margin: 1rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.page1 {
+    min-height:auto;
+    width: 100%;
+    position: relative;
+    padding-top:23vh;
+}
+.page1 h1 {
+    font-size: 16vw;
+    font-family: 'futura';
+    text-transform: uppercase;
+    letter-spacing: -0.6rem;
+    line-height: 5rem;
+    padding-left: 1.5vw;
+}
+.dets{
+    height: 60px;
+    width: 30%;
+}
+  .dets:hover {
+    cursor: pointer;
+    height: 25%;
+    
+}
+.dets .upper{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    padding: 7px;
+    border-radius: 15px;
+    background-color: #F5DFCF;
+}
+.dets .upper i{
+    background-color: #F5DFCF;
+    
+}
+.dets .upper  .ri-circle-fill{
+    font-size: 8px;
+}
+.dets .upper a{
+    text-decoration: none;
+    background-color: #F5DFCF;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+}
+
+.dets .lower{
+    display: flex;
+    position: absolute;
+    bottom: 5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #F5DFCF;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+}
+.lower .dets:hover{
+    opacity: 1;
+}
+.dets .lower img{
+    width: 100px;
+    height: 95px;
+    background-color: #F5DFCF;
+}
+.dets .end{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    padding: 6px;
+    background-color: #F5DFCF;
+   
+}
+
+.dets .end p{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+     color: rgb(60, 59, 59);
+     line-height: 1.1;
+     letter-spacing: -0.03rem;
+     background-color:#F5DFCF ;
+}
+.text {
+    height:auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding: 1rem;
+    justify-content: flex-start;
+}
+.text .left-box h1 {
+    font-size: 2rem;
+    font-family: 'futura';
+    letter-spacing: -0.05rem;
+    line-height: 1;
+    text-align: center;
+    margin-bottom:2rem ;
+}
+.text .left-box {
+    flex: 0 0;
+    height: auto;
+}
+.text .right-box {
+   flex:0 0;
+   
+}
+.text .right-box{
+    text-align: center;
+}
+.text .right-box p{
+    font-size: 1rem;
+}
+.page3 {
+    min-height:auto;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 6rem;
+    margin-top: 2rem;
+}
+.page3 .child{
+    height: auto;
+}
+.page3 .child img {
+    height: auto;
+    width: 40vw;
+    z-index: 99;
+}
+.page5{
+    flex-direction: column-reverse ;
+}
+.paina .dabba {
+    height: 50vh;
+}
+.page6 .end{
+    height: fit-content;
+    padding: 2rem;
+    position: relative;
+    text-align: start;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+} 
+.page6 .end p{
+    font-family:"Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif ;
+    font-size: 12px;
+    color: #5f5e5e;
+    line-height: 1.6;
+    letter-spacing: -0.02rem;
+}
+}
+@media (max-width:600px) {
+
+    
+    .nav-part2 a {
+
+        display: none;
+    }
+
+    .nav-part2 .icons {
+        width: 6rem;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 20px;
+        background-color: #F7F7F7;
+        border-radius: 30px;
+    }
+
+    .nav-part2 .icons i {
+
+        font-size: 15px;
+        cursor: pointer;
+        font-weight: 100px;
+        margin-top: 0.5rem;
+        margin-bottom: .5rem;
+
+    }
+
+    .page1 {
+        min-height: 100vh;
+
+
+    }
+
+    .page1 h1 {
+        font-size: 15vw;
+        font-family: 'futura';
+        text-transform: uppercase;
+        line-height: 5rem;
+        letter-spacing: -0.3rem;
+        padding-left: 1.5vw;
+    }
+
+    .video-container {
+        height: auto;
+        width: calc(100% - 2rem);
+        margin: 1rem auto;
+        padding: 0;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .page2 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .page2 .elem {
+        min-height: 60vh;
+        width: 100%;
+        margin: 0.5rem 0.5rem;
+    }
+
+    .video-container .play {
+        height: 8rem;
+        width: 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: futura;
+        background-color: black;
+        color: #fff;
+        font-size: 1.2rem;
+        top: 0;
+        border-radius: 50%;
+        opacity: 1;
+        scale: 1;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        z-index: 99;
+
+    }
+
+    .page2 .elem .dets {
+        height: 60px;
+        width: 65%;
+        border-radius: 30px;
+        position: absolute;
+    }
+    .page2 .elem .dets:hover{
+        height: 30%;
+    }
+
+    .page3 {
+        min-height: 150vh;
+        width: 100%;
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+
+
+    }
+
+    .page3 .child {
+        height: 76vh;
+        width: 88vw;
+        padding: 10vh;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page3 .child img {
+        height: 100%;
+        width: auto;
+
+    }
+    .blackbox {
+        display: flex;
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 140vh;
+        background-color: black;
+        z-index: 100;
+        color: white;
+        font-size: 24px;
+        padding: 20px;
+        box-sizing: border-box;
+        overflow-y: auto;
+        transform: translateY(-100%);
+        visibility: hidden;
+        transition: transform 0.5s ease-out, visibility 0s 0.5s;
+        padding: 1.2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .blackbox.visible {
+        display: flex;
+        flex-direction: column;
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+        transition: transform 0.5s ease-out;
+    }
+  
+    .blackbox .left {
+        height: fit-content;
+        justify-content: flex-end;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        bottom:1rem;
+    }
+    
+    #flex1,
+    #flex2,
+    #flex3 {
+        background-color: #000;
+    }
+    
+    .blackbox .left .bottom {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        padding: 1rem;
+        gap: 2rem;
+    }
+    
+    .blackbox .left .bottom #flex2 {
+        margin-left: 2rem;
+    }
+    
+    .blackbox .left .bottom p {
+        background-color: black;
+        color: #f4f3f3;
+        font-size: 0.5rem;
+        font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+    
+    }
+    
+    .blackbox .left .top {
+        background-color: black;
+        display: flex;
+        padding: 1rem;
+        gap: 3rem;
+    
+    }
+    
+    .blackbox .left .top h6 {
+        background-color: #000;
+        color: grey;
+        font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+        text-transform: uppercase;
+        font-size: 0.5rem;
+    }
+    
+    .blackbox .left .bottom p:hover {
+        cursor: pointer;
+        color: grey;
+        transition: 0.2s ease;
+    }
+    
+    .blackbox .right {
+        width: 100%;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height:fit-content;
+        position: absolute;
+        top: 4rem;
+        right: 1%;
+        position: absolute;
+        top: 6rem;
+        background-color: black;
+        padding: 1rem;
+    }
+    
+    .blackbox .right h1 {
+        text-transform: uppercase;
+        background-color: black;
+        color: white;
+        font-family: "Futura";
+        font-size: 3rem;
+        margin: 0;
+        line-height: 1;
+        text-align: end;
+        position: relative;
+    
+    }
+    
+    .blackbox .right h1:hover {
+        cursor: pointer;
+        color: #cdc8c8;
+        scale: 1.05;
+    }
+    
+    .blackbox .right h1 i {
+        background-color: black;
+        color: white;
+        height: 1rem;
+        width: auto;
+    }
+    .page4 .end button{
+        width: 36%;
+        height: 30px;
+    }
+   
+}
+
+
+
+

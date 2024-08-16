@@ -1,0 +1,111 @@
+.blackbox {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100vh;
+    background-color: black; 
+    z-index: 100;
+    color: white;
+    font-size: 24px; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    overflow-y: auto;
+    transform: translateY(-100%);  
+    visibility: hidden; 
+    transition: transform 0.5s ease-out, visibility 0s 0.5s;
+    padding: 1.5rem;
+}
+
+.blackbox.visible {
+    transform: translateY(0); 
+    opacity: 1; 
+    visibility: visible;
+    transition: transform 0.5s ease-out;
+}
+.blackbox .left{
+    height:80%;
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    background-color:black;
+    justify-content: flex-end;
+}
+#flex1,#flex2,#flex3{
+    background-color: #000;
+}
+.blackbox .left .bottom {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1.8rem;
+    gap: 8rem;
+}
+.blackbox .left .bottom #flex2{
+    margin-left: 4rem;
+}
+.blackbox .left .bottom p{
+    background-color: black;
+    color: #f4f3f3;
+    font-size: 0.8rem;
+    font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+    
+}
+.blackbox .left .top{
+    background-color: black;
+    display: flex;
+    padding: 1.8rem;
+    gap: 9rem;
+    
+}
+.blackbox .left .top h6{
+    background-color: #000;
+    color: grey;
+    font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+.blackbox .left .bottom p:hover{
+    cursor:pointer;
+    color: grey;
+    transition: 0.2s ease; 
+}
+
+.blackbox .right{
+    height:80%;
+    width: 22%;
+    position: absolute;
+    bottom: 0%;
+    right: 1% ;
+    background-color:black; 
+    margin: 0;
+}
+.blackbox .right h1{
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+   font-family: "Futura";
+   font-size: 3rem;
+   margin: 0;
+   line-height: 1;
+   text-align: end;
+   position: relative;
+   
+}
+
+.blackbox .right h1:hover{
+    cursor: pointer;
+    color: #cdc8c8;
+    scale: 1.05;
+}
+.blackbox .right h1 i{
+    background-color: black;
+    color: white;
+    height: 1rem;
+    width: auto;
+}
